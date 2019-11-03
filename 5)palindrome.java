@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class plaindrome{
+class palindrome{
 	public static void main(String args[])
 	{
 		String original,reverse="";
