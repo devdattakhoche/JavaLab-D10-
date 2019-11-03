@@ -45,3 +45,62 @@ class Main{
 		
 	}
 }
+/*import java.util.*;
+class Person
+{
+	public String Name;
+	public int age;
+	private String pass;
+	public void readData()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Name ,age and Password");
+		Name=sc.nextLine();
+		age=sc.nextInt();
+		sc.nextLine();
+		pass=sc.nextLine();
+		
+		
+	}
+	public void Display()
+	{
+		System.out.println("Name : "+Name+"\nage : "+age+"\npassword : "+ pass);
+	}
+}
+class Student extends Person
+{
+	String Name,Div;
+	int roll;
+	
+	//this.Name = super.Name;
+	public void readData()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter DIV and ROLL");
+		Div = sc.nextLine();
+		roll = sc.nextInt();
+	}
+	public void read()
+	{
+		super.readData();
+		this.readData();
+	}
+	
+	public void Display()
+	{
+		super.Display();
+		System.out.println("Class : "+ Div+"\nRoll : "+roll);
+	}
+	
+	
+}
+class Main5
+{
+	public static void main(String[] a)
+	{
+		Student s = new Student();
+		s.read();
+		s.Display();
+	}
+}*/
+//alternate Solution by @Shreyas Khadapkar
