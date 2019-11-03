@@ -21,3 +21,4 @@ public class Counting{
 		System.out.println("Vowels : "+a+"Consonants : "+m );
 	}
 }
+//Dev
